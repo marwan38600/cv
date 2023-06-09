@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.left-side > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cv {
+  width: 21cm;
+  height: 29.7cm;
+  display: flex;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+}
+
+.left-side {
+  width: 35%;
+  background: antiquewhite;
+  padding: 25px;
+}
+
+.right-side {
+  width: 65%;
+  padding: 25px;
+  background: aliceblue;
+}
+
+img {
+  width: 110px;
+  height: auto;
+  border-radius: 50%;
+  position: absolute;
+  left: 87%;
+  top: 8%;
+}
+
+.photo,
+.nameandpost {
+  height: 200px;
+}
+
+.photo {
+  height: 200px;
+  position: relative;
+}
+
+.nameandpost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centernameandpost {
+  border-top: 1px solid black;
+  width: 70%;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.experience {
+  border-left: 1px solid black;
+  padding-left: 5%;
+}
+
+.blockexp {
+  padding-bottom: 5%;
+}
